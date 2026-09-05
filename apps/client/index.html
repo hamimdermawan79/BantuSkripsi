@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bantu Skripsimu | Jasa Rapikan Skripsi & Format Akademik Profesional</title>
+  <meta name="description" content="Layanan perapian format skripsi, tesis, dan karya ilmiah sesuai buku pedoman kampus. Rapi, cepat, dan profesional tanpa mengubah substansi penelitian.">
+  
+  <!-- Strict Professional Typography (Plus Jakarta Sans & JetBrains Mono) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/src/styles/tokens.css">
+  <link rel="stylesheet" href="/src/styles/base.css">
+  <link rel="stylesheet" href="/src/styles/layout.css">
+  <link rel="stylesheet" href="/src/styles/components.css">
+  <link rel="stylesheet" href="/src/styles/comparison.css">
+  <link rel="stylesheet" href="/src/styles/modal.css">
+</head>
+<body>
+
+  <!-- Site Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo" id="nav-brand-logo">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Bantu Skripsi dan Laporan</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <!-- Dropdown 1: Layanan -->
+        <div class="nav-item has-dropdown" id="nav-item-services">
+          <button type="button" class="nav-link dropdown-toggle" aria-expanded="false" id="nav-services-toggle">
+            <span>Layanan</span>
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="dropdown-menu dropdown-mega">
+            <div class="dropdown-grid">
+              <div class="dropdown-col">
+                <span class="dropdown-category">Naskah Akademik</span>
+                <a href="#layanan" class="dropdown-item nav-service-switch" data-target-tab="akademik">
+                  <div class="dropdown-item-title">Format Skripsi & Tesis</div>
+                  <div class="dropdown-item-desc">Penataan margin, spasi, penomoran & pedoman kampus</div>
+                </a>
+                <a href="#layanan" class="dropdown-item nav-service-switch" data-target-tab="akademik">
+                  <div class="dropdown-item-title">Makalah & Jurnal Ilmiah</div>
+                  <div class="dropdown-item-desc">Format template IEEE, Elsevier, Scopus & SINTA</div>
+                </a>
+                <a href="#layanan" class="dropdown-item nav-service-switch" data-target-tab="akademik">
+                  <div class="dropdown-item-title">Sitasi & Referensi Baku</div>
+                  <div class="dropdown-item-desc">Sinkronisasi Mendeley, Zotero, APA 7th & Harvard</div>
+                </a>
+                <a href="#layanan" class="dropdown-item nav-service-switch" data-target-tab="akademik">
+                  <div class="dropdown-item-title">Koreksi Bahasa & PUEBI</div>
+                  <div class="dropdown-item-desc">Pemeriksaan ejaan, typo dan tata kalimat baku</div>
+                </a>
+              </div>
+              <div class="dropdown-col">
+                <span class="dropdown-category">Laporan Perusahaan & Proyek</span>
+                <a href="#layanan" class="dropdown-item nav-service-switch" data-target-tab="korporat">
+                  <div class="dropdown-item-title">Laporan Rutin & Bulanan</div>
+                  <div class="dropdown-item-desc">Format laporan divisi, KPI & ringkasan eksekutif</div>
+                </a>
+                <a href="#layanan" class="dropdown-item nav-service-switch" data-target-tab="korporat">
+                  <div class="dropdown-item-title">Laporan Keuangan Perusahaan</div>
+                  <div class="dropdown-item-desc">Neraca, laba rugi, arus kas & CALK standar PSAK</div>
+                </a>
+                <a href="#layanan" class="dropdown-item nav-service-switch" data-target-tab="korporat">
+                  <div class="dropdown-item-title">Laporan Kontraktor & Proyek</div>
+                  <div class="dropdown-item-desc">Laporan harian/mingguan, Kurva S & backup volume</div>
+                </a>
+                <a href="#layanan" class="dropdown-item nav-service-switch" data-target-tab="korporat">
+                  <div class="dropdown-item-title">Manual SOP & Dokumen Tender</div>
+                  <div class="dropdown-item-desc">Standard operating procedure & portofolio tender</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dropdown 2: Standar & Alat -->
+        <div class="nav-item has-dropdown" id="nav-item-tools">
+          <button type="button" class="nav-link dropdown-toggle" aria-expanded="false" id="nav-tools-toggle">
+            <span>Standar & Alat</span>
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="dropdown-menu">
+            <a href="#kalkulator" class="dropdown-item">
+              <div class="dropdown-item-title">Kalkulator Biaya</div>
+              <div class="dropdown-item-desc">Hitung estimasi tarif & durasi pengerjaan</div>
+            </a>
+            <a href="#perbandingan" class="dropdown-item">
+              <div class="dropdown-item-title">Standar Mutu & Perbandingan</div>
+              <div class="dropdown-item-desc">Komparasi naskah sebelum vs sesudah dirapikan</div>
+            </a>
+            <a href="#alur" class="dropdown-item">
+              <div class="dropdown-item-title">Alur Pengerjaan</div>
+              <div class="dropdown-item-desc">5 langkah pemesanan dan garansi revisi</div>
+            </a>
+          </div>
+        </div>
+
+        <a href="#keunggulan" class="nav-link">Keunggulan</a>
+        <a href="#paket" class="nav-link">Paket Tarif</a>
+        <a href="#lacak" class="nav-link">Lacak Pesanan</a>
+
+        <div class="nav-mobile-cta">
+          <button type="button" class="btn btn-primary btn-block btn-consult-trigger" data-package="standard">
+            Ajukan Konsultasi
+          </button>
+        </div>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="btn btn-primary btn-consult-trigger" data-package="standard" id="nav-cta-btn">
+          Konsultasi
+        </button>
+        <button type="button" class="nav-mobile-toggle" id="nav-mobile-toggle" aria-label="Buka Menu Navigasi">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <h1 class="hero-title-main">Jasa Rapikan Skripsi & <span class="hero-text-highlight">Laporan Bisnis</span></h1>
+          
+          <p class="hero-lead-text">
+            Layanan penataan format naskah akademik (skripsi, tesis, jurnal) serta penyusunan laporan rutin perusahaan, laporan keuangan, dan laporan proyek kontraktor secara presisi, terstruktur rapi, dan siap publikasi.
+          </p>
+
+          <div class="hero-cta-group">
+            <button type="button" class="btn btn-primary btn-lg btn-consult-trigger" data-package="standard" id="hero-primary-cta">
+              Ajukan Konsultasi
+            </button>
+            <a href="#kalkulator" class="btn btn-outline btn-lg" id="hero-secondary-cta">
+              Hitung Estimasi Biaya
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-visual-wrapper">
+            <img 
+              src="/src/assets/hero-illustration.png" 
+              alt="Format Dokumen Akademik dan Laporan Profesional" 
+              class="hero-main-illustration"
+              loading="eager"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Layanan Kami Section -->
+  <section class="section" id="layanan">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Layanan Kami</span>
+        <h2 class="section-title">Solusi Format Naskah Akademik & Dokumen Perusahaan</h2>
+        <p class="section-lead">Pilih kategori layanan di bawah untuk melihat spesifikasi penataan dokumen akademik dan penyusunan laporan operasional perusahaan.</p>
+      </div>
+
+      <!-- Service Category Tabs Switcher -->
+      <div class="service-tabs-bar">
+        <button type="button" class="service-tab-btn active" data-tab="akademik" id="tab-btn-akademik">
+          Layanan Naskah Akademik
+        </button>
+        <button type="button" class="service-tab-btn" data-tab="korporat" id="tab-btn-korporat">
+          Laporan Korporat & Kontraktor
+        </button>
+      </div>
+
+      <!-- Tab Content 1: Naskah Akademik -->
+      <div class="service-tab-content active" id="tab-panel-akademik" data-tab-panel="akademik">
+        <div class="grid-3">
+          <div class="service-card">
+            <h3 class="service-title">Koreksi Format & Tata Letak</h3>
+            <p class="service-desc">Merapikan margin, spasi, font, perataan alinea, dan penomoran romawi/arab otomatis.</p>
+            <ul class="service-deliverables">
+              <li>Margin 4-4-3-3 atau aturan baku kampus</li>
+              <li>Spasi 1.5 / 2.0 & inden paragraf baku</li>
+              <li>Section break & letak nomor halaman baku</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <h3 class="service-title">Daftar Isi, Tabel & Gambar</h3>
+            <p class="service-desc">Otomatisasi Table of Contents terintegrasi styles heading Word.</p>
+            <ul class="service-deliverables">
+              <li>Table of Contents otomatis tersinkron</li>
+              <li>Daftar tabel, gambar, grafik dan bagan</li>
+              <li>Daftar lampiran berurutan rapi</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <h3 class="service-title">Sitasi & Daftar Pustaka</h3>
+            <p class="service-desc">Sinkronisasi referensi dalam teks dan daftar pustaka standar internasional.</p>
+            <ul class="service-deliverables">
+              <li>Format APA 7th, IEEE, Harvard, Vancouver</li>
+              <li>Pemeriksaan kutipan langsung dan tidak langsung</li>
+              <li>Sinkronisasi file Mendeley atau Zotero</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <h3 class="service-title">Koreksi Bahasa & PUEBI</h3>
+            <p class="service-desc">Pemeriksaan ejaan, tanda baca, dan konsistensi istilah ilmiah tanpa mengubah substansi.</p>
+            <ul class="service-deliverables">
+              <li>Kepatuhan kaidah EYD Edisi V / PUEBI</li>
+              <li>Italisasi istilah bahasa asing</li>
+              <li>Pembersihan salah ketik (typo) berulang</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <h3 class="service-title">Makalah & Jurnal Ilmiah</h3>
+            <p class="service-desc">Konversi format naskah skripsi ke template jurnal nasional (SINTA) dan internasional.</p>
+            <ul class="service-deliverables">
+              <li>Penyesuaian template 2 kolom atau 1 kolom</li>
+              <li>Format abstrak bilingual (Indonesia & Inggris)</li>
+              <li>Tata letak grafik dan tabel resolusi cetak</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <h3 class="service-title">Sesuai Pedoman Kampus</h3>
+            <p class="service-desc">Penyesuaian 100% dengan buku pedoman resmi perguruan tinggi Anda.</p>
+            <ul class="service-deliverables">
+              <li>Cover, lembar persetujuan & pernyataan orisinalitas</li>
+              <li>Format hierarki bab dan subbab sesuai fakultas</li>
+              <li>Garansi revisi jika ada catatan format dosen</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Content 2: Laporan Korporat & Kontraktor -->
+      <div class="service-tab-content" id="tab-panel-korporat" data-tab-panel="korporat" style="display: none;">
+        <div class="grid-2">
+          <div class="service-card">
+            <h3 class="service-title">Laporan Rutin & Bulanan Perusahaan</h3>
+            <p class="service-desc">Penyusunan dan penataan format laporan operasional berkala antardivisi, ringkasan eksekutif untuk direksi, dan visualisasi kinerja periodik.</p>
+            <ul class="service-deliverables">
+              <li>Format laporan mingguan, bulanan, dan triwulanan manajemen</li>
+              <li>Executive summary terstruktur untuk rapat pimpinan</li>
+              <li>Integrasi tabel data, grafik capaian target & KPI</li>
+              <li>Format naskah baku siap cetak dan distribusi digital PDF</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <h3 class="service-title">Laporan Keuangan & Akuntansi Perusahaan</h3>
+            <p class="service-desc">Penataan format penyajian laporan keuangan formal sesuai standar PSAK / SAK EMKM untuk pelaporan internal, perbankan, maupun audit.</p>
+            <ul class="service-deliverables">
+              <li>Penyajian Neraca, Laporan Laba Rugi, dan Arus Kas</li>
+              <li>Catatan Atas Laporan Keuangan (CALK) sistematis</li>
+              <li>Konversi data Excel ke Word/PDF dengan tabel presisi</li>
+              <li>Penataan rasio keuangan dan ringkasan perbandingan tahunan</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <h3 class="service-title">Laporan Proyek Kontraktor & Konstruksi</h3>
+            <p class="service-desc">Penyusunan laporan teknis kemajuan fisik proyek konstruksi bagi kontraktor utama, subkontraktor, dan konsultan pengawas.</p>
+            <ul class="service-deliverables">
+              <li>Laporan Harian, Mingguan, dan Bulanan Proyek Fisik</li>
+              <li>Integrasi Kurva S, Time Schedule, dan deviasi progress</li>
+              <li>Lampiran Backup Volume, Opname Pekerjaan & Request Sheet</li>
+              <li>Dokumentasi foto progres lapangan dan Berita Acara PHO/FHO</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <h3 class="service-title">Manual SOP, Profil Perusahaan & Dokumen Tender</h3>
+            <p class="service-desc">Penyusunan dokumen tata kelola operasional (SOP), Company Profile formal, dan kelengkapan administrasi teknis tender proyek pengadaan.</p>
+            <ul class="service-deliverables">
+              <li>Standard Operating Procedure (SOP) divisi dan alur flowchart</li>
+              <li>Dokumen administrasi & teknis tender pengadaan proyek</li>
+              <li>Company Profile formal dengan layout profesional</li>
+              <li>Kerahasiaan dokumen terjamin melalui perjanjian NDA resmi</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kenapa Pilih Kami Section -->
+  <section class="section section-alt" id="keunggulan">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Standar Layanan</span>
+        <h2 class="section-title">Kualitas Penataan & Integritas Dokumen</h2>
+        <p class="section-lead">Pengerjaan cermat dengan standar mutu pedoman akademik dan tata kelola korporat.</p>
+      </div>
+
+      <div class="grid-3" style="margin-bottom: var(--space-8);">
+        <div class="feature-clean-card">
+          <span class="feature-clean-num">01</span>
+          <h3 class="feature-clean-title">Ketelitian & Kepatuhan Pedoman</h3>
+          <p class="feature-clean-desc">Penataan margin, nomor halaman, styles heading, dan daftar isi disesuaikan 100% dengan buku pedoman resmi kampus atau standar PSAK perusahaan.</p>
+          <a href="#perbandingan" class="inline-action-link">Lihat Standar & Komparasi &rarr;</a>
+        </div>
+
+        <div class="feature-clean-card">
+          <span class="feature-clean-num">02</span>
+          <h3 class="feature-clean-title">Kerahasiaan & Orisinalitas</h3>
+          <p class="feature-clean-desc">Substansi, analisis, dan data penelitian Anda tetap terjaga utuh. Setiap dokumen dilindungi dengan perjanjian kerahasiaan (*Non-Disclosure Agreement*).</p>
+          <a href="#layanan" class="inline-action-link">Eksplorasi Cakupan Layanan &rarr;</a>
+        </div>
+
+        <div class="feature-clean-card">
+          <span class="feature-clean-num">03</span>
+          <h3 class="feature-clean-title">Waktu Terukur & Garansi Revisi</h3>
+          <p class="feature-clean-desc">Estimasi selesai 1–3 hari kerja dengan garansi revisi format hingga naskah disetujui dosen pembimbing atau dewan direksi.</p>
+          <a href="#kalkulator" class="inline-action-link">Hitung Estimasi Biaya &rarr;</a>
+        </div>
+      </div>
+
+      <div class="quality-assurance-banner">
+        <div>
+          <div class="quality-assurance-tag">VERIFIKASI AWAL</div>
+          <h3 class="quality-assurance-title">Pemeriksaan Kemiripan Teks & Validasi Format Dasar</h3>
+          <p class="quality-assurance-desc">Setiap pemesanan mencakup pengecekan skor kemiripan teks dasar dan verifikasi kelengkapan struktur naskah sebelum finalisasi.</p>
+        </div>
+        <button type="button" class="btn btn-primary btn-consult-trigger" data-package="standard">
+          Konsultasi Sekarang
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Document Comparison (Proof of Quality) -->
+  <section class="section" id="perbandingan">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-kicker">Standar Kerapian</span>
+        <h2 class="section-title">Perbandingan Draf: Sebelum vs Sesudah Dirapikan</h2>
+        <p class="section-lead">Pilih kategori format di bawah untuk melihat perbedaan kualitas dokumen sebelum dan sesudah penataan presisi standar akademik.</p>
+      </div>
+
+      <div class="comparison-container">
+        <!-- Category Selector Bar -->
+        <div class="comparison-category-bar">
+          <button type="button" class="comparison-category-btn active" data-category="footnote">
+            Format Footnote & Sitasi
+          </button>
+          <button type="button" class="comparison-category-btn" data-category="numbering">
+            Hierarki Penomoran Subbab
+          </button>
+          <button type="button" class="comparison-category-btn" data-category="pagenumber">
+            Perapian Nomor Halaman
+          </button>
+          <button type="button" class="comparison-category-btn" data-category="layout">
+            Tata Letak Margin & Paragraf
+          </button>
+        </div>
+
+        <!-- View Mode Toolbar -->
+        <div class="comparison-toolbar">
+          <div class="comparison-toggle-group">
+            <button type="button" class="comparison-toggle-btn active" data-mode="split">Berdampingan</button>
+            <button type="button" class="comparison-toggle-btn" data-mode="before">Sebelum Saja</button>
+            <button type="button" class="comparison-toggle-btn" data-mode="after">Sesudah Saja</button>
+          </div>
+          <div class="comparison-view-mode">PEDOMAN AKADEMIK & STANDAR FORMAT NASIONAL</div>
+        </div>
+
+        <!-- PANEL 1: FOOTNOTE / CATATAN KAKI -->
+        <div class="comparison-panel active" data-panel="footnote">
+          <div class="comparison-grid">
+            <div class="doc-side before">
+              <div class="doc-side-header">
+                <span class="doc-status-tag unformatted">Sebelum</span>
+              </div>
+
+              <div class="paper-mockup messy">
+                <div class="footnote-text-body">
+                  <div style="font-weight: bold; margin-bottom: 0.5rem;">A. Tinjauan Asas Kepastian Hukum</div>
+                  <div class="paper-para">
+                    Kepastian hukum merupakan asas fundamental dalam negara hukum yang menjamin bahwa norma hukum dapat diprediksi dan ditaati oleh masyarakat (1). Prinsip ini menegaskan bahwa peraturan perundang-undangan tidak boleh berlaku surut demi melindungi hak-hak subjek hukum (2).
+                  </div>
+                </div>
+
+                <div class="footnote-separator-bad">
+                  <div class="footnote-entry bad">(1) Peter Mahmud Marzuki, Pengantar Ilmu Hukum, Kencana, Jakarta, 2018, hal 45.</div>
+                  <div class="footnote-entry bad">(2) ibid. hal 50.</div>
+                </div>
+              </div>
+
+              <div class="doc-issue-list">
+                <div class="doc-issue-item error">Catatan kaki diketik manual dalam kurung tanpa superscript</div>
+                <div class="doc-issue-item error">Garis separator dan kaidah Ibid./Op.cit. tidak sesuai pedoman baku</div>
+              </div>
+            </div>
+
+            <div class="doc-side after">
+              <div class="doc-side-header">
+                <span class="doc-status-tag formatted">Sesudah</span>
+              </div>
+
+              <div class="paper-mockup clean">
+                <div class="footnote-text-body">
+                  <div style="font-weight: bold; margin-bottom: 0.5rem;">A. Tinjauan Asas Kepastian Hukum</div>
+                  <div class="paper-para">
+                    Kepastian hukum merupakan asas fundamental dalam tatanan negara hukum yang menjamin bahwa norma positif dapat diprediksi secara objektif oleh masyarakat.<span class="footnote-ref-good">1</span> Prinsip ini menegaskan bahwa peraturan perundang-undangan tidak boleh diberlakukan secara retroaktif demi melindungi hak-hak konstitusional subjek hukum.<span class="footnote-ref-good">2</span>
+                  </div>
+                </div>
+
+                <div class="footnote-separator-clean">
+                  <div class="footnote-entry"><span class="footnote-ref-good">1</span> Peter Mahmud Marzuki, <em>Pengantar Ilmu Hukum</em> (Jakarta: Kencana Prenada Media Group, 2018), hlm. 45.</div>
+                  <div class="footnote-entry"><span class="footnote-ref-good">2</span> <em>Ibid.</em>, hlm. 50.</div>
+                </div>
+              </div>
+
+              <div class="doc-issue-list">
+                <div class="doc-issue-item success">Nomor superscript otomatis terintegrasi fitur Footnote MS Word</div>
+                <div class="doc-issue-item success">Garis separator 5 cm baku dan kaidah penulisan referensi presisi</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PANEL 2: NUMBERING & HIERARKI SUBBAB -->
+        <div class="comparison-panel" data-panel="numbering">
+          <div class="comparison-grid">
+            <div class="doc-side before">
+              <div class="doc-side-header">
+                <span class="doc-status-tag unformatted">Sebelum</span>
+              </div>
+
+              <div class="paper-mockup messy">
+                <div class="num-tree-bad">
+                  <div style="font-weight: bold; margin-bottom: 0.5rem;">BAB II TINJAUAN PUSTAKA</div>
+                  <div class="item">2.1 Landasan Teori</div>
+                  <div class="item" style="padding-left: 0.5rem;">A. Teori Manajemen Sumber Daya Manusia</div>
+                  <div class="item" style="padding-left: 1.5rem;">1. Fungsi Manajemen: Planning, Organizing</div>
+                </div>
+              </div>
+
+              <div class="doc-issue-list">
+                <div class="doc-issue-item error">Tingkatan subbab campur aduk dan indentasi acak</div>
+                <div class="doc-issue-item error">Heading tidak memakai Styles Word sehingga gagal terbaca di Daftar Isi</div>
+              </div>
+            </div>
+
+            <div class="doc-side after">
+              <div class="doc-side-header">
+                <span class="doc-status-tag formatted">Sesudah</span>
+              </div>
+
+              <div class="paper-mockup clean">
+                <div class="num-tree-clean">
+                  <div style="text-align: center; font-weight: bold; margin-bottom: 0.5rem;">BAB II<br>TINJAUAN PUSTAKA</div>
+                  <div class="level-1">A. Landasan Teori</div>
+                  <div class="level-2">1. Manajemen Sumber Daya Manusia</div>
+                  <div class="level-3">a. Fungsi-Fungsi Manajemen (<em>Planning, Organizing</em>)</div>
+                </div>
+              </div>
+
+              <div class="doc-issue-list">
+                <div class="doc-issue-item success">Hierarki bertingkat baku: BAB &rarr; A. &rarr; 1. &rarr; a. &rarr; 1)</div>
+                <div class="doc-issue-item success">Tersinkronisasi otomatis dengan Styles Heading 1, 2, 3 untuk Daftar Isi</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PANEL 3: PERAPIAN NOMOR HALAMAN -->
+        <div class="comparison-panel" data-panel="pagenumber">
+          <div class="comparison-grid">
+            <div class="doc-side before">
+              <div class="doc-side-header">
+                <span class="doc-status-tag unformatted">Sebelum</span>
+              </div>
+
+              <div class="paper-mockup messy">
+                <div class="paper-page-header wrong-pos">[Kanan Atas: Hal 4] (Salah letak)</div>
+                <div style="font-weight: bold; margin-bottom: 0.5rem;">BAB I PENDAHULUAN</div>
+                <div class="paper-para">
+                  Halaman awal bab dan abstrak tercampur nomor arab tanpa pemisahan section break.
+                </div>
+                <div class="paper-page-footer wrong-pos">[Tanpa format baku]</div>
+              </div>
+
+              <div class="doc-issue-list">
+                <div class="doc-issue-item error">Halaman awal bab terletak di kanan atas (melanggar aturan baku)</div>
+                <div class="doc-issue-item error">Bagian pengantar tidak memakai romawi kecil (i, ii, iii)</div>
+              </div>
+            </div>
+
+            <div class="doc-side after">
+              <div class="doc-side-header">
+                <span class="doc-status-tag formatted">Sesudah</span>
+              </div>
+
+              <div class="paper-mockup clean">
+                <div class="paper-page-header"></div>
+                <div style="text-align: center; font-weight: bold; margin-bottom: 0.5rem;">BAB I<br>PENDAHULUAN</div>
+                <div class="paper-para">
+                  Penerapan Section Break otomatis: Halaman judul bab di Bawah Tengah, halaman lanjutan di Kanan Atas.
+                </div>
+                <div class="paper-page-footer correct-pos">1</div>
+              </div>
+
+              <div class="doc-issue-list">
+                <div class="doc-issue-item success">Section Break terpisah antara bagian awal (i, ii) dan isi utama (1, 2)</div>
+                <div class="doc-issue-item success">Posisi nomor halaman otomatis berpindah sesuai kaidah awal bab / lanjutan</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PANEL 4: TATA LETAK MARGIN & PARAGRAF -->
+        <div class="comparison-panel" data-panel="layout">
+          <div class="comparison-grid">
+            <div class="doc-side before">
+              <div class="doc-side-header">
+                <span class="doc-status-tag unformatted">Sebelum</span>
+              </div>
+
+              <div class="paper-mockup messy">
+                <div style="font-weight: bold; margin-bottom: 0.5rem;">BAB I PENDAHULUAN</div>
+                <div class="paper-para">
+                  Margin tidak baku sehingga teks berisiko terpotong saat proses jilid hard cover perpustakaan. Spasi baris tidak seragam antar halaman.
+                </div>
+              </div>
+
+              <div class="doc-issue-list">
+                <div class="doc-issue-item error">Margin acak dan spasi baris tidak konsisten</div>
+                <div class="doc-issue-item error">Inden alinea diketik manual dengan spasi berulang</div>
+              </div>
+            </div>
+
+            <div class="doc-side after">
+              <div class="doc-side-header">
+                <span class="doc-status-tag formatted">Sesudah</span>
+              </div>
+
+              <div class="paper-mockup clean">
+                <div style="text-align: center; font-weight: bold; margin-bottom: 0.5rem;">BAB I<br>PENDAHULUAN</div>
+                <div class="paper-para">
+                  Margin resmi 4-4-3-3 presisi (Kiri 4 cm, Atas 4 cm, Kanan 3 cm, Bawah 3 cm) dengan spasi baku dan perataan justified rapi.
+                </div>
+              </div>
+
+              <div class="doc-issue-list">
+                <div class="doc-issue-item success">Margin 4-4-3-3 aman jilid lem panas / hard cover skripsi</div>
+                <div class="doc-issue-item success">Spasi 1.5 / 2.0 dan inden alinea 1.25 cm seragam di seluruh bab</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Paket Layanan Section -->
+  <section class="section section-alt" id="paket">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-kicker">Paket Layanan</span>
+        <h2 class="section-title">Pilihan Paket Sesuai Kebutuhan Naskah</h2>
+        <p class="section-lead">Tarif transparan tanpa biaya tersembunyi. Konsultasi dan pengecekan awal dokumen bersifat gratis.</p>
+      </div>
+
+      <div class="grid-3">
+        <!-- BASIC -->
+        <div class="pricing-card" id="card-package-basic">
+          <div class="pricing-header">
+            <div class="pricing-plan-name">BASIC</div>
+            <div class="pricing-price-box">
+              <span class="pricing-price">Rp75.000</span>
+            </div>
+            <div class="pricing-period">Estimasi standar naskah s.d. 50 halaman</div>
+          </div>
+
+          <ul class="pricing-features-list">
+            <li class="pricing-feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Koreksi format & tata letak</span>
+            </li>
+            <li class="pricing-feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Daftar isi otomatis</span>
+            </li>
+            <li class="pricing-feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Koreksi typo ringan</span>
+            </li>
+          </ul>
+
+          <button type="button" class="btn btn-outline btn-block btn-select-package" data-package="basic">
+            Pilih Paket Basic
+          </button>
+        </div>
+
+        <!-- STANDARD -->
+        <div class="pricing-card featured" id="card-package-standard">
+          <div class="pricing-featured-tag">Paling Populer</div>
+          <div class="pricing-header">
+            <div class="pricing-plan-name">STANDARD</div>
+            <div class="pricing-price-box">
+              <span class="pricing-price">Rp150.000</span>
+            </div>
+            <div class="pricing-period">Estimasi standar naskah s.d. 75 halaman</div>
+          </div>
+
+          <ul class="pricing-features-list">
+            <li class="pricing-feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Semua di paket Basic</span>
+            </li>
+            <li class="pricing-feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Sitasi & daftar pustaka</span>
+            </li>
+            <li class="pricing-feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Merapikan tabel & gambar</span>
+            </li>
+            <li class="pricing-feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Bonus Turnitin / Grammarly Preview</span>
+            </li>
+          </ul>
+
+          <button type="button" class="btn btn-primary btn-block btn-select-package" data-package="standard">
+            Pilih Paket Standard
+          </button>
+        </div>
+
+        <!-- PREMIUM -->
+        <div class="pricing-card" id="card-package-premium">
+          <div class="pricing-header">
+            <div class="pricing-plan-name">PREMIUM</div>
+            <div class="pricing-price-box">
+              <span class="pricing-price">Rp250.000</span>
+            </div>
+            <div class="pricing-period">Estimasi standar naskah s.d. 100 halaman</div>
+          </div>
+
+          <ul class="pricing-features-list">
+            <li class="pricing-feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Semua di paket Standard</span>
+            </li>
+            <li class="pricing-feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Cek konsistensi keseluruhan</span>
+            </li>
+            <li class="pricing-feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Penyesuaian pedoman kampus</span>
+            </li>
+            <li class="pricing-feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Revisi hingga puas</span>
+            </li>
+          </ul>
+
+          <button type="button" class="btn btn-outline btn-block btn-select-package" data-package="premium">
+            Pilih Paket Premium
+          </button>
+        </div>
+      </div>
+
+      <div class="pricing-notice-box">
+        <div class="pricing-notice-text">
+          <strong>Catatan Tarif:</strong> Harga dapat disesuaikan berdasarkan jumlah halaman riil, tingkat kesulitan teknis naskah, serta tenggat waktu (deadline).
+        </div>
+        <button type="button" class="btn btn-accent btn-consult-trigger" data-package="standard">
+          Konsultasi Gratis
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Calculator Section -->
+  <section class="section" id="kalkulator">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Kalkulator Biaya</span>
+        <h2 class="section-title">Hitung Estimasi Biaya & Durasi Pengerjaan</h2>
+        <p class="section-lead">Dapatkan rincian tarif transparan untuk naskah skripsi, tesis, laporan operasional, laporan keuangan, maupun laporan proyek kontraktor.</p>
+      </div>
+
+      <div class="calculator-card">
+        <div class="calculator-grid">
+          <!-- Input Form Column -->
+          <div class="calc-inputs">
+            <div class="form-group">
+              <label class="form-label" for="calc-doc-type">Kategori Dokumen</label>
+              <select class="form-select" id="calc-doc-type">
+                <option value="skripsi" selected>Format Skripsi, Tesis & Naskah Akademik</option>
+                <option value="laporan_rutin">Laporan Rutin & Bulanan Divisi/Perusahaan</option>
+                <option value="laporan_keuangan">Laporan Keuangan & Akuntansi Perusahaan (PSAK)</option>
+                <option value="laporan_kontraktor">Laporan Proyek Kontraktor & Konstruksi (Kurva S)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="calc-package">Pilihan Paket Pengerjaan</label>
+              <select class="form-select" id="calc-package">
+                <option value="basic">BASIC - Rp75.000 (Format tata letak dasar, TOC otomatis, Typo ringan)</option>
+                <option value="standard" selected>STANDARD - Rp150.000 (Basic + Sitasi/Tabel/Gambar + Pengecekan Lengkap)</option>
+                <option value="premium">PREMIUM - Rp250.000 (Standard + Konsistensi Bab/Lampiran + Standar Khusus + Revisi)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <label class="form-label" for="calc-pages" style="margin: 0;">Jumlah Estimasi Halaman</label>
+                <span id="calc-pages-val" style="font-family: var(--font-mono); font-weight: 700; color: var(--color-brand-secondary);">60 Halaman</span>
+              </div>
+              <input type="range" class="form-control" id="calc-pages" min="15" max="300" value="60" style="margin-top: 0.5rem;">
+              <div class="form-hint">Geser untuk menyesuaikan jumlah total halaman dokumen Anda.</div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="calc-urgency">Tingkat Urgensi (Tenggat Waktu)</label>
+              <select class="form-select" id="calc-urgency">
+                <option value="regular" selected>Reguler (3 - 5 Hari Kerja)</option>
+                <option value="fast">Cepat (1 - 2 Hari Kerja)</option>
+                <option value="express">Kilat (&lt; 24 Jam Kerja)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Layanan Tambahan (Opsional)</label>
+              <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;" id="calc-addons-container">
+                <label style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; cursor: pointer;">
+                  <input type="checkbox" name="calc-addon" value="mendeley_sync">
+                  <span>Sinkronisasi Referensi / Tabel Lanjutan (+Rp30.000)</span>
+                </label>
+                <label style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; cursor: pointer;">
+                  <input type="checkbox" name="calc-addon" value="lampiran_heavy">
+                  <span>Perapian Lampiran Dokumen Kompleks / Backup Data > 15 Hal (+Rp25.000)</span>
+                </label>
+                <label style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; cursor: pointer;">
+                  <input type="checkbox" name="calc-addon" value="turnitin_report">
+                  <span>Pengecekan Plagiarisme & Validasi Orisinalitas (+Rp35.000)</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Summary Panel Column -->
+          <div class="calc-summary-panel">
+            <div class="calc-summary-title">Ringkasan Estimasi</div>
+
+            <div class="calc-breakdown-row">
+              <span>Paket Dasar</span>
+              <strong id="calc-out-base">Rp150.000</strong>
+            </div>
+
+            <div class="calc-breakdown-row">
+              <span>Penyesuaian Halaman</span>
+              <strong id="calc-out-pages">Rp0</strong>
+            </div>
+
+            <div class="calc-breakdown-row">
+              <span>Biaya Urgensi Waktu</span>
+              <strong id="calc-out-urgency">Rp0</strong>
+            </div>
+
+            <div class="calc-breakdown-row">
+              <span>Layanan Tambahan</span>
+              <strong id="calc-out-addons">Rp0</strong>
+            </div>
+
+            <div style="margin: 1rem 0; padding-top: 0.75rem; border-top: 1px dashed rgba(255,255,255,0.15);">
+              <span style="font-size: 0.75rem; color: #94a3b8; text-transform: uppercase;">Estimasi Waktu Selesai:</span>
+              <div id="calc-out-time" style="font-size: 0.875rem; color: #93c5fd; font-weight: 600; margin-top: 2px;">
+                3 - 5 Hari Kerja
+              </div>
+            </div>
+
+            <div class="calc-total-box">
+              <span class="calc-total-label">Total Perkiraan Biaya</span>
+              <div class="calc-total-price" id="calc-out-total">Rp150.000</div>
+              <button type="button" class="btn btn-accent btn-block btn-consult-trigger" id="calc-btn-order">
+                Pesan / Ajukan Konsultasi
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Alur Pemesanan Section -->
+  <section class="section section-alt" id="alur">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-kicker">Alur Pemesanan</span>
+        <h2 class="section-title">5 Langkah Praktis Pengerjaan Dokumen</h2>
+        <p class="section-lead">Proses kerja terstruktur, transparan, dan dapat dipantau setiap saat.</p>
+      </div>
+
+      <div class="workflow-row">
+        <!-- Step 1 -->
+        <div class="workflow-card">
+          <div class="workflow-step-num">1</div>
+          <h3 class="workflow-title">Konsultasi</h3>
+          <p class="workflow-desc">Kirim draf dokumen & pedoman kampus / template perusahaan Anda.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="workflow-card">
+          <div class="workflow-step-num">2</div>
+          <h3 class="workflow-title">Penawaran</h3>
+          <p class="workflow-desc">Kami cek tingkat kesulitan & memberikan estimasi harga pasti.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="workflow-card">
+          <div class="workflow-step-num">3</div>
+          <h3 class="workflow-title">Pembayaran</h3>
+          <p class="workflow-desc">Setelah deal, lakukan pembayaran melalui kanal resmi yang tersedia.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="workflow-card">
+          <div class="workflow-step-num">4</div>
+          <h3 class="workflow-title">Proses Pengerjaan</h3>
+          <p class="workflow-desc">Kami kerjakan perapian dokumen sesuai standar kesepakatan.</p>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="workflow-card">
+          <div class="workflow-step-num">5</div>
+          <h3 class="workflow-title">Selesai & Revisi</h3>
+          <p class="workflow-desc">File dikirim kembali dengan garansi revisi format hingga disetujui.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lacak Status Pesanan (Tanpa Login) -->
+  <section class="section" id="lacak">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-kicker">Lacak Pesanan</span>
+        <h2 class="section-title">Pantau Perkembangan Dokumen Anda</h2>
+        <p class="section-lead">Masukkan kode referensi pesanan naskah akademik atau laporan proyek Anda untuk melihat status terkini secara langsung.</p>
+      </div>
+
+      <div class="tracker-box">
+        <form id="tracker-form" class="tracker-input-row">
+          <input type="text" class="form-control" id="tracker-ref-input" placeholder="Masukkan nomor referensi (misal: REF-SKR-2026-9012)" style="font-family: var(--font-mono); text-transform: uppercase;">
+          <button type="submit" class="btn btn-primary" style="flex-shrink: 0;">Lacak Progres</button>
+        </form>
+
+        <div id="tracker-result"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner Bottom -->
+  <section class="section section-dark" style="text-align: center;">
+    <div class="container container-narrow">
+      <h2 style="font-size: clamp(1.75rem, 3vw, 2.5rem); margin-bottom: var(--space-3); color: #ffffff;">Dokumen Rapi, Siap Sidang & Rapat Manajemen</h2>
+      <p style="font-size: 1.125rem; color: #93c5fd; font-weight: 700; margin-bottom: var(--space-6);">Rapi · Cepat · Profesional</p>
+      <button type="button" class="btn btn-accent btn-lg btn-consult-trigger" data-package="standard" id="bottom-banner-cta">
+        Hubungi Kami via WhatsApp
+      </button>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand-name" style="color: #ffffff; margin-bottom: var(--space-3);">Bantu Skripsi dan Laporan</div>
+          <p style="font-size: 0.875rem; color: #94a3b8; line-height: 1.6;">
+            Layanan perapian tata letak dokumen akademik terstandarisasi dan penyusunan laporan manajemen korporat serta proyek kontraktor profesional di Indonesia.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-title">Layanan Akademik</div>
+          <ul class="footer-links">
+            <li><a href="#layanan">Format Skripsi & Tesis</a></li>
+            <li><a href="#layanan">Makalah & Jurnal Ilmiah</a></li>
+            <li><a href="#layanan">Sitasi APA / IEEE / Mendeley</a></li>
+            <li><a href="#layanan">Koreksi Bahasa & PUEBI</a></li>
+            <li><a href="#kalkulator">Kalkulator Biaya</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-title">Layanan Korporat</div>
+          <ul class="footer-links">
+            <li><a href="#layanan">Laporan Rutin & Bulanan</a></li>
+            <li><a href="#layanan">Laporan Keuangan PSAK</a></li>
+            <li><a href="#layanan">Laporan Proyek Kontraktor</a></li>
+            <li><a href="#layanan">Kurva S & Backup Volume</a></li>
+            <li><a href="#layanan">Manual SOP & Tender</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-title">Hubungi Kami</div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>0812-3456-7890</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+            <span>@bantuskripsi.laporan</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span>layanan@bantuskripsimu.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; <span id="current-year">2026</span> Bantu Skripsi & Laporan. Hak Cipta Dilindungi.</div>
+        <div>Format naskah akademik & dokumen bisnis profesional tanpa mengubah orisinalitas isi.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Consultation & Direct WhatsApp Modal -->
+  <div class="modal-backdrop" id="order-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-title-text">Formulir Konsultasi Dokumen</h3>
+        <button type="button" class="modal-close-btn" id="modal-close-btn">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Client Category Switch in Modal -->
+        <div class="modal-type-switch">
+          <button type="button" class="modal-type-btn active" data-client-type="akademik" id="btn-type-academic">
+            Naskah Akademik (Skripsi/Tesis)
+          </button>
+          <button type="button" class="modal-type-btn" data-client-type="korporat" id="btn-type-corporate">
+            Laporan Bisnis / Kontraktor
+          </button>
+        </div>
+
+        <form id="order-consult-form">
+          <input type="hidden" name="clientCategory" id="form-client-category" value="akademik">
+
+          <div class="form-group">
+            <label class="form-label" for="form-student-name" id="form-name-label">Nama Lengkap *</label>
+            <input type="text" class="form-control" id="form-student-name" name="studentName" required placeholder="Contoh: Muhammad Fajar / PT Bangun Graha">
+          </div>
+
+          <!-- Academic Dynamic Fields -->
+          <div class="grid-2" id="academic-fields-row">
+            <div class="form-group">
+              <label class="form-label" for="form-campus-name">Perguruan Tinggi</label>
+              <select class="form-select campus-select-input" id="form-campus-name" name="campusName">
+                <option value="Universitas Indonesia (UI)">Universitas Indonesia (UI)</option>
+                <option value="Universitas Gadjah Mada (UGM)">Universitas Gadjah Mada (UGM)</option>
+                <option value="Institut Teknologi Bandung (ITB)">Institut Teknologi Bandung (ITB)</option>
+                <option value="Universitas Diponegoro (UNDIP)">Universitas Diponegoro (UNDIP)</option>
+                <option value="Universitas Brawijaya (UB)">Universitas Brawijaya (UB)</option>
+                <option value="Universitas Padjadjaran (UNPAD)">Universitas Padjadjaran (UNPAD)</option>
+                <option value="Lainnya">Kampus Lainnya</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-faculty">Fakultas / Program Studi</label>
+              <input type="text" class="form-control" id="form-faculty" name="facultyMajor" placeholder="Contoh: Teknik Sipil / Manajemen">
+            </div>
+          </div>
+
+          <!-- Corporate Dynamic Fields -->
+          <div class="grid-2" id="corporate-fields-row" style="display: none;">
+            <div class="form-group">
+              <label class="form-label" for="form-company-name">Nama Perusahaan / Instansi</label>
+              <input type="text" class="form-control" id="form-company-name" name="companyName" placeholder="Contoh: PT Wijaya Konstruksi Nusantara">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-report-type">Jenis Laporan / Proyek</label>
+              <select class="form-select" id="form-report-type" name="reportType">
+                <option value="Laporan Rutin & Bulanan Perusahaan">Laporan Rutin / Bulanan Perusahaan</option>
+                <option value="Laporan Keuangan & Akuntansi (PSAK)">Laporan Keuangan & Akuntansi (PSAK)</option>
+                <option value="Laporan Proyek Kontraktor (Kurva S)">Laporan Proyek Kontraktor (Kurva S)</option>
+                <option value="Manual SOP & Dokumen Tender">Manual SOP & Dokumen Tender</option>
+                <option value="Dokumen Bisnis Lainnya">Dokumen Bisnis Lainnya</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid-3">
+            <div class="form-group">
+              <label class="form-label" for="form-package">Pilihan Paket</label>
+              <select class="form-select" id="form-package" name="packageId">
+                <option value="basic">BASIC (Rp75.000)</option>
+                <option value="standard" selected>STANDARD (Rp150.000)</option>
+                <option value="premium">PREMIUM (Rp250.000)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-pages">Jumlah Hal.</label>
+              <input type="number" class="form-control" id="form-pages" name="pageCount" value="60" min="10" max="500">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-urgency">Urgensi Waktu</label>
+              <select class="form-select" id="form-urgency" name="urgency">
+                <option value="regular">Reguler (3-5 Hari)</option>
+                <option value="fast">Cepat (1-2 Hari)</option>
+                <option value="express">Kilat (&lt;24 Jam)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="form-notes">Catatan Tambahan / Format Khusus</label>
+            <textarea class="form-control" id="form-notes" name="notes" rows="3" placeholder="Sebutkan detail instruksi format khusus atau pedoman yang harus diikuti..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block btn-lg" style="margin-top: var(--space-3);">
+            Kirim & Lanjut ke WhatsApp
+          </button>
+        </form>
+
+        <!-- Success view after submission -->
+        <div id="order-success-view" class="order-success-view" style="display: none;">
+          <div class="success-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </div>
+          <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--color-brand-primary); margin-bottom: 0.5rem;">Formulir Konsultasi Terdaftar</h3>
+          <p style="font-size: 0.875rem; color: var(--color-text-muted);">Gunakan nomor referensi di bawah ini untuk memantau status pesanan kapan saja tanpa login.</p>
+
+          <div class="order-ref-card">
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--color-text-subtle); text-transform: uppercase;">Nomor Referensi Anda:</span>
+            <div class="order-ref-code" id="modal-ref-code">REF-SKR-2026-XXXX</div>
+          </div>
+
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-block btn-lg" id="modal-wa-direct-btn">
+            Buka Chat WhatsApp Resmi Sekarang
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/scripts/main.js"></script>
+</body>
+</html>
